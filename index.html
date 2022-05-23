@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="calc-body">
+        <div class="inputbox">
+            <input type="text" class="screen">
+        </div> <br><br>
+
+        <div class="digits"><button onclick="getValue(val=7)" class="button">7</button></div>
+        <div class="digits"><button onclick="getValue(val=8)" class="button">8</button></div>
+        <div class="digits"><button onclick="getValue(val=9)" class="button">9</button></div>
+        <div class="digits"><button onclick="getValue(val='*')" class="button">x</button></div> <br>
+
+        <div class="digits"><button onclick="getValue(val=4)" class="button">4</button></div>
+        <div class="digits"><button onclick="getValue(val=5)" class="button">5</button></div>
+        <div class="digits"><button onclick="getValue(val=6)" class="button">6</button></div>
+        <div class="digits"><button onclick="getValue(val='-')" class="button">-</button></div> <br>
+
+        <div class="digits"><button onclick="getValue(val=1)" class="button">1</button></div>
+        <div class="digits"><button onclick="getValue(val=2)" class="button">2</button></div>
+        <div class="digits"><button onclick="getValue(val=3)" class="button">3</button></div>
+        <div class="digits"><button onclick="getValue(val='+')" class="button">+</button></div> <br>
+
+        <div class="digits"><button onclick="getValue(val=0)" class="button">0</button></div>
+        <div class="digits"><button onclick="getValue(val='.')" class="button">.</button></div>
+        <div class="digits"><button onclick="executeCalculation()" class="button">=</button></div>
+        <div class="digits"><button onclick="getValue(val='/')" class="button">/</button></div> <br>
+        <div class="clear"><button onclick="clearDisplay()" class="clear_button">clear</button></div> <br>
+        <div class="square"><button onclick="getValue(val='**')" class="buttonsqr">sqr</button></div> <br>
+
+
+
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>

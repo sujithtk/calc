@@ -1,0 +1,61 @@
+
+.calc-body{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(241, 227, 209);
+    margin-left: 29%;
+    margin-top: 40px;
+    border: solid 2px cornflowerblue;
+}
+.screen{
+    width: 86%;
+    height: 49px;
+    margin-top: 17px;
+    margin-left: 20px;
+    pointer-events: none;
+    border: 1px solid gray;
+    font-size: larger;
+    padding-left: 6px
+}
+.digits{
+    width: 20%;
+    height: 54px;
+    background-color: aquamarine;
+    float: left;
+    margin: 7px;
+    text-align: center;
+    padding-top: 1px;
+}
+.button {
+    width: 55px;
+    height: 52px;
+    font-weight: bold;
+    font-size: large;
+}
+.clear_button {
+    width: 206px;
+    height: 40px;
+}
+.clear{
+    width: 70%;
+    height: 42px;
+    background-color: aquamarine;
+    float: left;
+    margin: 7px;
+    text-align: center;
+    padding-top: 1px;
+}
+.square{
+    width: 19%;
+    height: 40px;
+    background-color: aquamarine;
+    float: left;
+    margin: 6px;
+    margin-left:7px;
+    text-align: center;
+    padding-top: 1px;
+}
+.buttonsqr{
+    width: 55px;
+    height: 39px;
+}
