@@ -1,4 +1,6 @@
-
+body{
+    background-color: black;
+}
 .calc-body{
     width: 300px;
     height: 450px;
